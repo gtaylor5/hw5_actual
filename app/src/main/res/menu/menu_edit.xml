@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/snooze"
+        android:icon="@drawable/ic_add_alarm_white_24dp"
+        android:title="@string/snooze"
+        app:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/done"
+        android:icon="@drawable/ic_check_white_24dp"
+        android:title="@string/complete"
+        app:showAsAction="always"/>
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_save_24dp"
+        android:title="@string/save"
+        app:showAsAction="always" />
+    <item android:id="@+id/cancel"
+        android:icon="@drawable/ic_clear_24dp"
+        android:title="@string/cancel"
+        app:showAsAction="always" />
+</menu>
